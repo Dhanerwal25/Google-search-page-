@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Advanced Search</title>
+  <link rel="stylesheet" href="styles.css" >
+  <meta name="viewport" content="width"= device width,initial-scale=1.0>
+  <style>
+  h2 {
+    margin-top:30px;
+    font-size:20px;
+    hieght:70px;
+    color:red;
+  }
+  input[type="text"]{
+  position:relative;
+  font-size: 10px;
+  padding:5px;
+  width:150px;
+  justify-content: center;
+}
+  form {
+    font-size:20px;
+  }
+  
+  </style>
+</head>
+<body>
+  <section>
+    <a href="index.html"> google search</a>
+  </section>
+  <h2> Advanced Search</h2>
+  <h3>Find pages with..</h3>
+  <form action=" https://www.google.com/search?q=site:example.comlr=lang_en">
+    <label for="as_q">All these words:</label>
+    <input type="text" id="as_q" name="as_q"><br><br>
+    <label for="as_epq">Exact phrase:</label>
+    <input type="text" id="as_epq" name="as_epq"><br><br>
+    <label for="as_oq">Any of these words:</label>
+    <input type="text" id="as_oq" name="as_oq"><br><br>
+    <label for="as_eq">None of these words:</label>
+    <input type="text" id="as_eq" name="as_eq"><br><br>
+    <input type="submit" value="Advanced Search">
+    <a href=" https://www.google.com/search?btn=Im+Feeling+Lucky&q=YOUR_QUERY"></a> 
+    <input type="submit" value="I Am Feeling Lucky" >
+  </form>
+  <div class="footer">
+    <div class="country">
+      <h>India</h>
+    </div>
+    <div class="languages" id="languageList">
+      <span>Google offered in:</span>
+      <a href="#">हिन्दी</a>
+      <a href="#">English</a>
+      <a href="#">বাংলা</a>
+      <a href="#">తెలుగు</a>
+      <a href="#">मराठी</a>
+      <a href="#">தமிழ்</a>
+    </div>
+    <div class="language-select">
+      <select id="languageSelect">
+        <option value="default">Select</option>
+        <option value="hindi">Hindi</option>
+        <option value="english">English</option>
+        <option value="bengali">বাংলা</option>
+        <option value="telugu">తెలుగు</option>
+        <option value="marathi">मराठी</option>
+        <option value="tamil">தமிழ்</option>
+        <option value="gujarati">ગુજરાતી</option>
+        <option value="kannada">ಕನ್ನಡ</option>
+        <option value="malayalam">മലയാളം</option>
+        <option value="punjabi">ਪੰਜਾਬੀ</option>
+      </select>
+    </div>
+    <div class="footer-info">
+      <div>
+        <a href="#">Change account</a>
+      </div>
+      <div>
+        Dark theme: Off 
+        <a href="#">Help</a><br><br>
+        <a href="#">Privacy</a> 
+        <a href="#">Terms</a>
+      </div>
+    </div>
+</body>
+</html>
